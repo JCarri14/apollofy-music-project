@@ -15,7 +15,7 @@ Server and Client App for the Apollofy Music Project.
 
 ## Getting Started
 
-See the `README.md` files in each one of the `packages/*`
+See the `README.md` files in each one of the `packages/*`.
 
 ## Monorepo
 
