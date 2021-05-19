@@ -15,7 +15,7 @@ function Home() {
         {isAuthenticated ? (
           <h1 className="text-xl">Hello {currentUser.email}</h1>
         ) : (
-          <h1 className="text-xl">Hello World</h1>
+          <h1 className="text-xl">Apollofy Music Platform is on!</h1>
         )}
       </section>
     </main>
