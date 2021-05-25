@@ -16,6 +16,14 @@ const purgecss = require("@fullhuman/postcss-purgecss")({
 module.exports = {
   style: {
     postcss: {
+      plugins: [tailwindcss, postcssFocusVisible, autoprefixer],
+    },
+  },
+};
+/*
+module.exports = {
+  style: {
+    postcss: {
       plugins: [
         tailwindcss,
         postcssFocusVisible,
@@ -25,3 +33,4 @@ module.exports = {
     },
   },
 };
+*/
