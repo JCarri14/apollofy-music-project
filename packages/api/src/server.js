@@ -16,6 +16,9 @@ app.use(json());
 app.use(
   cors({
     origin: config.client.url,
+    methods: ["GET", "PUT", "POST"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    optionsSuccessStatus: 200,
   }),
 );
 

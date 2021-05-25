@@ -14,16 +14,3 @@
   NETLIFY_USE_YARN = "true"
   NETLIFY_YARN_WORKSPACES = "true"
   YARN_VERSION = "1.22.10"
-
-[[redirects]]
-  from = "/*"
-  to = "/public/index.html"
-  status = 200
-
-[[headers]]
-  # Define which paths this specific [[headers]] block will cover.
-  for = "/*"
-    [headers.values]
-    Access-Control-Allow-Origin = "*"
-    Access-Control-Allow-Headers = "Origin, X-Requested-With, Content-Type, Accept, Authorization"
-    Access-Control-Request-Method = "GET, POST, DELETE, PUT, OPTIONS"
