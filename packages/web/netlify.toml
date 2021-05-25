@@ -15,6 +15,11 @@
   NETLIFY_YARN_WORKSPACES = "true"
   YARN_VERSION = "1.22.10"
 
+[[redirects]]
+  from = "/*"
+  to = "/public/index.html"
+  status = 200
+
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
   for = "/*"
